@@ -1,0 +1,197 @@
+.modal-wrapper {
+    .modal-container {
+        .modal-content {
+            padding: 10px;
+            display: flex;
+            .product-logo-checkout {
+                background-color: transparent;
+                margin-right: auto;
+                margin-bottom: 17px;
+                height: 25px;
+                width: 25%;
+                background: url('../assets/images/logo_2.png') center center no-repeat;
+                background-size: cover;
+            }
+            .up-content {
+                display: flex;
+                flex-direction: row;
+
+                .left-content {
+                    border-radius: 5px;
+                    background-color: #edeef4;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 15px 38px;
+                    // height: 100%;
+
+                    .product-name {
+                        margin-right: auto;
+                        overflow-wrap: break-word;
+                        margin-bottom: 30px;
+                    }
+                    .product-img {
+                        height: 50%;
+                        width: 100%;
+                        // width: 81%;
+                        // height: 95%;
+                        background: url('https://tttctt.1cdn.vn/2022/03/22/ipad-air-2022-3-2048x1365.jpg') center center
+                            no-repeat;
+                        background-size: cover;
+                        border-radius: 10px;
+                    }
+                    // .product-des-title {
+                    //     background-color: rgb(250, 250, 250);
+                    //     border-radius: 20px;
+                    //     color: rgb(0, 0, 0);
+                    //     font-size: 18px;
+                    //     padding: 14px;
+                    //     text-transform: capitalize;
+                    //     position: relative;
+                    //     top: -36px;
+                    //     bottom: 0;
+                    //     right: 0;
+                    //     z-index: 10px;
+                    //     left: 0;
+                    // }
+                    .product-des {
+                        color: black;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 14px;
+                        line-height: 23.8px;
+                        // width:;
+                        padding: 10px;
+
+                        li {
+                            margin-left: 10px;
+                            list-style-type: circle;
+                        }
+                    }
+                }
+                .right-content {
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+                    // margin: 0 25px;
+                    // margin-top: 75px;
+                    // margin-left: 10px;
+                    // border: 2px solid rgb(232, 232, 232);
+
+                    margin: 25px;
+                    .product-amount {
+                        display: flex;
+                        flex-direction: column;
+                        .product-amount-title {
+                            margin-right: auto;
+                            margin-bottom: 10px;
+                        }
+                        .product-area {
+                            display: flex;
+                            flex-direction: row;
+                            .product-select-amount {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            label {
+                                margin-right: 5px;
+                                margin-bottom: 0;
+                            }
+                            input {
+                                margin-right: 10px;
+                                width: 20px;
+                                height: 20px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    .product-payment {
+                        display: flex;
+                        flex-direction: column;
+                        // float: left;
+                        .payment-title {
+                            margin-right: auto;
+                        }
+                        .payment-area {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            width: 100%;
+                            padding: 0 10px;
+                            // background-color: rgb(245, 245, 245);
+
+                            justify-content: center;
+                            padding: 10px;
+                            .payment-box {
+                                border-radius: 10px;
+                                font-weight: 400;
+                                display: flex;
+                                background-color: white;
+                                justify-content: space-between;
+                                border: 3px solid rgb(245, 245, 245);
+
+                                padding: 20px;
+                                align-items: center;
+                                font-size: 18px;
+                                margin-right: 10px;
+                                margin-top: 10px;
+                                cursor: pointer;
+                                width: 45%;
+                                height: 70px;
+                                i {
+                                    font-size: 35px;
+                                }
+
+                                &:visited {
+                                    border: 1px solid red;
+                                }
+                            }
+                        }
+                    }
+                    .email-product-detail {
+                        .email-input {
+                            margin: 10px 0;
+                            border: 1px solid #cccc;
+                            border-radius: 5px;
+                            width: 100%;
+                            height: 70%;
+                            padding: 10px;
+                        }
+                    }
+                    .capcha {
+                        margin-top: 30px;
+                    }
+
+                    .place-order-btn {
+                        width: 45%;
+                        flex: 1;
+                        text-align: center;
+                        margin-top: 10px;
+                        align-self: center;
+                        background-color: blue;
+                        padding: 10px 0;
+                        color: white;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+        .down-content {
+            margin-top: 20px;
+            .child-product {
+            }
+        }
+    }
+}
+
+.modal-dialog {
+    max-width: 1200px;
+    margin: 1.75rem auto;
+}
+
+.modal-content {
+    border: none;
+}

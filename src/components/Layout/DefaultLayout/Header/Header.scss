@@ -1,0 +1,64 @@
+.header-container {
+    background-color: transparent;
+    // border: solid red 1px;
+    height: 55px;
+    padding: 0 20px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.09);
+    background-color: black;
+}
+
+.header-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    .left-content {
+        // border: solid orange 1px;
+        height: 100%;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .header-logo {
+            width: 81%;
+            height: 95%;
+            cursor: pointer;
+            background: url('https://www.luxuo.vn/wp-content/themes/Luxuo2017/images/logo.png') center center no-repeat;
+        }
+    }
+
+    .center-content {
+        // border: solid blue 1px;
+        height: 100%;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .child-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // border: solid red 1px;
+            color: white;
+            height: 80%;
+            flex: 1;
+
+            a {
+                color: white;
+            }
+        }
+    }
+
+    .right-content {
+        // border: solid yellowgreen 1px;
+        height: 100%;
+        // width: 15%;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

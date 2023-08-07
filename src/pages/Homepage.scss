@@ -1,0 +1,145 @@
+.homepage-container {
+    width: 100%;
+}
+
+.homepage-banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 561px;
+    .container {
+        height: 80%;
+    }
+}
+
+.homepage-brand-wrapper {
+    background-color: #f5f5f5;
+    padding: 64px 0;
+}
+
+.homepage-category-wrapper {
+    .container {
+        .category-head-title {
+            font-size: 30px;
+            font-weight: 700;
+            letter-spacing: -0.2px;
+            line-height: 28.8px;
+            font-family: SuisseWorks;
+            // text-align: center;
+            margin-top: 70px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.homepage-courses-wrapper {
+    .container {
+        .course-head-title {
+            margin-top: 100px;
+            font-family: SuisseWorks;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            line-height: 40px;
+        }
+        .course-sub-title {
+            color: #1c1d1f;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 26.6px;
+            margin: 16px 0px 40px;
+        }
+
+        .course-area {
+            border: 1px solid #d1d7dc;
+            padding: 32px;
+            .course-area-head-title {
+                color: #1c1d1f;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                letter-spacing: -0.2px;
+                line-height: 28.8px;
+                margin: 0px 0px 10px;
+            }
+            .course-area-sub-title {
+                color: #1c1d1f;
+                display: -webkit-box;
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 22.4px;
+                margin: 0px 0px 16px;
+                font-size: 15px;
+                font-weight: 400;
+                max-width: 65%;
+            }
+            .btnExplore {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid rgb(28, 29, 31);
+                padding: 0 12px;
+                height: 40px;
+                background-color: transparent;
+                span {
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 16.8px;
+                    color: rgb(28, 29, 31);
+                }
+            }
+        }
+    }
+}
+
+.homepage-testimonials-wrapper {
+    background-color: #f7f9fa;
+    .container {
+        .testimonial-head-title {
+            margin-top: 100px;
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -0.02rem;
+            font-size: 2.4rem;
+            max-width: 36em;
+            padding-top: 24px;
+        }
+        .testimonial-area {
+            padding-bottom: 50px;
+        }
+    }
+}
+
+.homepage-coach-wrapper {
+    // background-color: #1f242d;
+    .container {
+        .coach-head-title {
+        }
+        .coach-area {
+        }
+    }
+}
+
+.homepage-discover-wrapper {
+    background-color: #f5f5f5;
+    // padding: 64px 0;
+}
+
+.homepage-becomecoach-wrapper {
+    margin-top: 100px;
+}
+
+//reset react-slick
+.slick-next,
+.slick-prev {
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 50px !important;
+    background-color: #1c1d1f !important;
+    z-index: 1 !important;
+    top: 65px !important;
+
+    &:hover {
+        background-color: #3e4143 !important;
+    }
+}
